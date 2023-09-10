@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "st-audio-recorder"
+version = "0.0.2"
+description = ""
+authors = ["Stefan Rummer"]
+readme = "README.md"
+packages = [{include = "streamlit_audio_recorder"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.25.2"
+streamlit = "^1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
